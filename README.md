@@ -27,4 +27,13 @@
       }
     } 
     ```
-    
+- 2019.12.05
+  - [WEB2 - JavaScript](https://opentutorials.org/course/3085/) 완강 후 적용
+  - 기존의 js 파일에서 jQuery 문법을 적용시킴
+    ```
+    var Links = {
+      setColor:function(color){
+        $('a').css('color', color);
+      }
+    }
+    ```
